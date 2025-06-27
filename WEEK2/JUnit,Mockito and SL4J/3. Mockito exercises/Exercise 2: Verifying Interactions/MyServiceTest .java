@@ -22,9 +22,8 @@ public class MyServiceTest {
         ExternalApi mockApi = mock(ExternalApi.class);
 
         MyService service = new MyService(mockApi);
-        service.fetchData(); // Should call getData()
+        service.fetchData();
 
-        // ✅ Verifies that getData() was called once
         verify(mockApi).getData();
     }
 }
