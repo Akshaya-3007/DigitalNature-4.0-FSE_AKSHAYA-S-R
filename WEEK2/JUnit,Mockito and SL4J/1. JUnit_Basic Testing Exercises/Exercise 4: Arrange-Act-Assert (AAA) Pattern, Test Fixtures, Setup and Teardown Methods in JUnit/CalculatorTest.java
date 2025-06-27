@@ -28,10 +28,8 @@ public class CalculatorTest {
        
         int a = 10;
         int b = 5;
-
        
         int result = calc.add(a, b);
-
        
         assertEquals(15, result);
     }
@@ -42,10 +40,8 @@ public class CalculatorTest {
         int a = 10;
         int b = 3;
 
-        // Act
         int result = calc.subtract(a, b);
 
-        // Assert
         assertEquals(7, result);
     }
 }
